@@ -25,7 +25,7 @@ jobs:
          run: |
            git clone -b main https://ernestholt47:${{ secrets.GH_TOKEN }}@github.com/ernestholt47/Encoder-47.git
        - name: Running Bot 
-         timeout-minutes: 180
+         timeout-minutes: 200
          continue-on-error: true
          run: |
            cd Encoder-47
